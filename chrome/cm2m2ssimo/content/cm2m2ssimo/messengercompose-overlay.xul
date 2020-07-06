@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+Module courrielleur - cm2m2ssimo (envoi melanssimo depuis le courrielleur)
+-->
+
+<!DOCTYPE overlay SYSTEM "chrome://cm2m2ssimo/locale/cm2m2ssimo.dtd">
+
+<overlay id="cm2m2ssimo"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-logs.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-utils.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/message.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/compose.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/validateur.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-client.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-http.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-errval.js"/>
+
+</overlay>

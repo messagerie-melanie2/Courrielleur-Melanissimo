@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+ * Module courrielleur - cm2m2ssimo (envoi melanssimo depuis le courrielleur)
+ * Affichage des erreurs de validation du message
+   -->
+
+<!DOCTYPE overlay SYSTEM "chrome://cm2m2ssimo/locale/cm2m2ssimo.dtd">
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://cm2m2ssimo/skin/m2ssimo.css" type="text/css"?>
+
+
+<dialog id="m2ssimmo-errvalid"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&m2ssimmo-errvalid;"
+        buttons="accept"
+        onload="m2sErrValidInit();">
+
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-logs.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-utils.js"/>
+
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-errval.js"/>
+
+  <vbox flex="1">
+
+    <description id="errvalid-lib">&m2ssimmo-errvalid-lib;</description>
+
+    <grid flex="1" id="errvalid-grid">
+      <columns>
+        <column/>
+        <column flex="1"/>
+      </columns>
+      <rows id="errvalid-liste">
+        <row>
+          <listheader label="&errvalid-col1;"/>
+          <listheader label="&errvalid-col2;" flex="1"/>
+        </row>
+      </rows>
+    </grid>
+
+  </vbox>
+
+</dialog>

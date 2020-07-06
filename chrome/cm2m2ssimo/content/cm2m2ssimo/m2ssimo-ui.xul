@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+
+<!--
+ * Module courrielleur - cm2m2ssimo (envoi melanssimo depuis le courrielleur)
+ * Interface utilisateur d'envoi
+ *
+   -->
+
+
+<!DOCTYPE overlay SYSTEM "chrome://cm2m2ssimo/locale/cm2m2ssimo.dtd">
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/skin/preferences/preferences.css" type="text/css"?>
+<?xml-stylesheet href="chrome://messenger/content/charsetList.css" type="text/css"?>
+
+<?xml-stylesheet href="chrome://cm2m2ssimo/skin/m2ssimo.css" type="text/css"?>
+
+
+<dialog id="m2ssimmo"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&m2ssimmo-envoi;"
+        buttons="accept,cancel"
+        onload="m2sDlgInit();"
+        ondialogcancel="return m2sDlgCancel();"
+        buttonlabelaccept="&libenvoyer;" ondialogaccept="return m2sDlgAccept();"
+        buttondisabledaccept="true">
+
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-logs.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-utils.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/fichier.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/message.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/validateur.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-client.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-http.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-ui.js"/>
+  <script type="application/x-javascript" src="chrome://cm2m2ssimo/content/m2ssimo-copie.js"/>
+
+  <vbox id="m2ui-zone" flex="1">
+
+    <vbox class="bandeau">
+      <description class="bandeau-titre">&m2ssimmo-envoi;</description>
+    </vbox>
+
+    <separator/>
+
+    <deck id="m2uideck" selectedIndex="0">
+
+      <vbox>
+        <description id="m2ui-detect1">&m2ui-detect1;</description>
+        <description id="m2ui-contact">&m2ui-contact;</description>
+      </vbox>
+
+      <vbox>
+        <description id="m2ui-detect2">&m2ui-detect2;</description>
+        <hbox>
+          <label id="libjours">&m2ui-libgarde;</label>
+          <textbox id="m2ui-jours" type="number" size="2" min="1"/>
+          <label id="libjours">&m2ui-jours;</label>
+          <hbox flex="1"/>
+       </hbox>
+      </vbox>
+
+      <vbox>
+        <description id="m2ui-prepare">&m2ui-prepare;</description>
+      </vbox>
+
+      <vbox>
+        <description id="m2ui-envoi">&m2ui-envoi;</description>
+        <progressmeter id="m2ui-vumetre" mode="undetermined"/>
+        <label class="m2ui-lib" id="m2ui-statut" value="&m2ui-libstatut;" crop="end"/>
+        <hbox>
+          <label class="m2ui-lib" value="&m2ui-libreste;"/>
+          <label id="m2ui-restant"/>
+        </hbox>
+      </vbox>
+
+    </deck>
+
+  </vbox>
+
+</dialog>

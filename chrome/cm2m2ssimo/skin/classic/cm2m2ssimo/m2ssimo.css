@@ -1,0 +1,112 @@
+
+#m2ssimmo{
+  min-width:300px;
+  /*max-width:400px;*/
+  /*min-height:200px;*/
+  background-color:white;
+  padding-top:0px;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+
+
+.bandeau{
+  height:50px;
+  background-color: #CCE1A2;
+
+}
+
+.bandeau-titre{
+  margin-left:10px;
+  margin-top:14px;
+  font-size: 14pt;
+  font-family: Arial;
+  color:#385C02;
+}
+
+#m2uideck{
+  padding-left:8px;
+  padding-right:8px;
+}
+
+.m2ui-lib{
+  padding-left:10px;
+}
+
+#m2uideck description {
+  font-size: 10pt;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom:8px;
+  white-space: pre-wrap;
+}
+
+
+#errvalid-grid {
+  background-color:white;
+  padding-bottom: 12px;
+  border:1px solid lightgray;
+}
+
+#errvalid-lib{
+  font-size:12px;
+  font-weight: bold;
+  white-space: pre-wrap;
+  padding-bottom:8px;
+  padding-top:4px;
+}
+
+#libjours{
+  font-size:10pt;
+  /*font-weight: bold;*/
+}
+
+
+/* boite a propos */
+.cm2m2ssimo-apropos{
+  background-color:white;
+}
+
+#apropos-cadre{
+  padding-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.aproposdesc{
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+}
+
+.apropos-libministere{
+
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+  margin-bottom: 2px;
+  color:#385C02;
+
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:blue;
+}
+
+.apropos-libministere2{
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+  margin-top:24px;
+  margin-bottom: 2px;
+  color:rgb(72,33,64);
+}
+
+
+#apropos-collogo{
+  padding-top:60px;
+}
+
+#apropos-cadredesc{
+  padding-left:4px;
+}

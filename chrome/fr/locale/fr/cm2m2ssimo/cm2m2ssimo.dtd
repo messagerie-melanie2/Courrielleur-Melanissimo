@@ -1,0 +1,47 @@
+
+<!ENTITY melanissimo "Mélanissimo">
+
+<!ENTITY m2ssimmo-envoi "Envoi &melanissimo;">
+
+<!ENTITY libenvoyer "Envoyer">
+
+<!ENTITY libDemandeEnvoi "La taille du message est trop importante
+pour un envoi par messagerie.
+Utiliser les services &melanissimo; pour l'envoi?">
+
+
+<!ENTITY m2ui-prepare "Préparation et validation du message...">
+
+
+<!ENTITY m2ssimmo-errvalid "&melanissimo; - préparation du message">
+
+<!ENTITY m2ssimmo-errvalid-lib "Certains éléments ne sont pas valides pour un envoi &melanissimo;.
+Les éléments listés ci-dessous doivent être corrigés.">
+
+<!ENTITY errvalid-col1 "Elément">
+<!ENTITY errvalid-col2 "Erreur détectée lors de la validation">
+
+<!ENTITY m2ui-detect1 "La taille du message est trop importante pour un envoi par messagerie.">
+<!ENTITY m2ui-detect2 "La taille du message est trop importante pour un envoi par messagerie.
+Utiliser les services Mélanissimo pour l'envoi?">
+<!ENTITY m2ui-contact "Le courrielleur contacte le service &melanissimo;...">
+<!ENTITY m2ui-garde "Choix de la durée de conservation des fichiers">
+<!ENTITY m2ui-libgarde "Conserver les fichiers: ">
+<!ENTITY m2ui-envoi "Le courrielleur envoie le message vers &melanissimo;...">
+<!ENTITY m2ui-jours "jours">
+
+<!ENTITY m2ui-libstatut "En cours...">
+<!ENTITY m2ui-libreste "Temps total restant :">
+
+<!ENTITY m2ssimmo-errsrv "Erreur d'envoi &melanissimo;">
+<!ENTITY m2ssimmo-errsrv-src "Source d'erreur:">
+<!ENTITY m2ssimmo-errsrv-msg "Message:">
+
+<!-- a propos -->
+<!ENTITY cm2m2ssimo.apropos.titre "À propos de Envoi &melanissimo;">
+<!ENTITY cm2m2ssimo.apropos.text1 "Envoi &melanissimo;">
+<!ENTITY cm2m2ssimo.apropos.text2 "Version : &cm2m2ssimo.numver;">
+<!ENTITY cm2m2ssimo.apropos.text3 "Publié le : &cm2m2ssimo.datever;">
+<!ENTITY cm2m2ssimo.numver "2.3">
+<!ENTITY cm2m2ssimo.datever "29/11/2019">
+

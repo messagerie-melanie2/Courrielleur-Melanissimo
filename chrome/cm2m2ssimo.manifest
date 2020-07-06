@@ -1,0 +1,4 @@
+content  cm2m2ssimo  cm2m2ssimo/content/cm2m2ssimo/
+skin  cm2m2ssimo classic/1.0 cm2m2ssimo/skin/classic/cm2m2ssimo/
+
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://cm2m2ssimo/content/messengercompose-overlay.xul
