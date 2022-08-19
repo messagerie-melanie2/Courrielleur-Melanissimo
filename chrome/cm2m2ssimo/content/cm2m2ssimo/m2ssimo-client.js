@@ -930,8 +930,9 @@ ClientM2s.prototype={
       last+='/';
 
     let uri=Services.io.newURI(last, null, null);
-
-    if (!uri.schemeIs(protocol)){
+    
+    // #6936: Courrielleur incompatible avec JSON pre-prod melanissimo
+    if (!uri.schemeIs(protocol) && !last.includes("preprod")){
 
       m2sTrace("GetNextUrl scheme different");
 
